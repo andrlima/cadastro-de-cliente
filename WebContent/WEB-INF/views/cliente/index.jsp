@@ -48,8 +48,8 @@
                     <div class = "input-block">
 
                         <label for = "dataNascimento"> Data de Nascimento </label>
-                        <!--  <input type = "date" id = "dataNascimento" required/> -->
-          				<cadastro:campoData id="dataNascimento"/>
+                        <input type = "text" id = "dataNascimento" required/>
+          				<!-- <cadastro:campoData id="dataNascimento"/> -->
 
                     </div>
 

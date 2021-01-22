@@ -13,7 +13,8 @@
         <title> Editar Cliente </title>
 		
 		<link rel = "stylesheet" href = "./css/estilo.css" />
-        <link rel = "stylesheet" href = "./css/animacao-form.css" />
+   
+        <link rel = "stylesheet" href = "./css/animacao-form-editar.css" />
         <link rel = "stylesheet" href = "./css/jquery.css" />
 
     </head>
@@ -27,10 +28,12 @@
         </div>
 
         <section class = "form-section">
-
+	
             <div class = "div-formulario" id = "div-form">
 
                 <form action = "atualizarCliente" id = "form-cadastro" methodo = "post">
+                
+               		<input type="hidden" name="id" value="${cliente.id}"/>
 
                     <div class = "input-block">
 
@@ -48,10 +51,9 @@
 
                     <div class = "input-block">
 
-                        <label for = "dataNascimento"> Data de Nascimento </label>
-
-                        <input type = "text" name = "dataNascimento" value = "<fmt:formatDate value="${cliente.dataNascimento.time}" pattern="dd/MM/yyyy" />
-
+                        <label for = "dataNascimento"> Data de Nascimento </label>              
+						<input type = "text" name = "dataNascimento" value = "<fmt:formatDate value="${cliente.dataNascimento.time}" pattern="dd/MM/yyyy" />"/>
+						
                     </div>
 
                     <div class = "input-block">
