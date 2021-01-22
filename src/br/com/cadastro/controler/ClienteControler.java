@@ -51,7 +51,7 @@ public class ClienteControler {
 	public String atualizar(Cliente cliente) {
 		ClienteDao dao = new ClienteDao();
 		dao.atualizar(cliente);
-		return "redirect:listarDeCliente";
+		return "redirect:listaDeCliente";
 	}
 
 }

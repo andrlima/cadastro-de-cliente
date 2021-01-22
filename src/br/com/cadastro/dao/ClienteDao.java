@@ -165,9 +165,6 @@ public class ClienteDao {
 		cliente.setNomePai(rs.getString("nomePai"));
 		cliente.setNomeMae(rs.getString("nomeMae"));
 		
-
-
-		// popula a data de finalizacao da tarefa, fazendo a conversao
 		Date data = rs.getDate("dataNascimento");
 		
 		if (data != null) {
