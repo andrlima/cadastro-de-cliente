@@ -40,11 +40,11 @@ public class ClienteControler {
 		return "redirect:listaDeCliente";
 	}
 	
-	@RequestMapping("mostrarCliente")
+	@RequestMapping("editarCliente")
 	public String mostrar(Long id, Model model) {
 		ClienteDao dao = new ClienteDao();
 		model.addAttribute("cliente", dao.buscaPorId(id));
-		return "cliente/mostrar";
+		return "cliente/editarCliente";
 	}
 	
 	@RequestMapping("atualizarCliente")
