@@ -1,0 +1,65 @@
+.div-tabela{
+    position: relative;
+    top: 24px;
+
+ 
+}
+
+.div-tabela-cliente{
+    background: #FFF;
+    width: 1300px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #f0f7f6;
+}
+
+.tabela-cliente{
+    margin: auto;
+    
+}
+
+.tabela-cliente tr{
+    border: #000 solid 1px;
+
+}
+
+
+.tabela-cliente th{
+    background: #191919;
+    height: 30px;
+    padding: 5px;
+    border: #000 solid 1px;
+    color: #FFF;
+   
+}
+
+.btn-th:hover{
+    background: rgba(16, 16, 145, 0.993);
+
+}
+
+
+.tabela-cliente td{
+    border: #000 solid 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-links{
+    text-decoration: none;
+    color: #FFF;
+  
+}
+
+.btn-links:hover{
+    color: #000;
+}
+
+.btn-links-2{
+    color: #000;
+    font-weight: bolder;
+}
+
+.btn-links-2:hover{
+    color: #FFF;
+}

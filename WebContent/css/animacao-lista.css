@@ -1,0 +1,7 @@
+/*A função hidden está na arquivo animacao-form.css */
+.div-tabela-cliente{
+    overflow: hidden;
+    animation-name: fade;
+    animation-duration: 1000ms;
+
+}

@@ -1,0 +1,46 @@
+.menu{
+    position: relative;
+    top: 25px;
+   
+}
+
+.nav-menu{
+    width: 700px;
+    margin: auto;
+  
+}
+
+.nav-menu ul{
+    align-items: center;
+    
+}
+
+.nav-menu ul li{
+    border: #000 solid 1px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 280px;
+    height: 60px;
+    margin-left: 50px;
+    padding-top: 14px;
+    
+}
+
+.nav-menu ul li:hover{
+    background: #696969;
+    border: #FFF solid 1px;
+    box-shadow: 0 0 10px #f0f7f6;
+}
+
+.btn-menu{
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.btn-menu:hover{
+    color: #FFF;
+}

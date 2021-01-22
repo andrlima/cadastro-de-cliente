@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body{
+    height: 100vh;
+
+}
+
+body{
+    background: #292929;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+.texto-main{
+    margin: auto;
+    width: 500px;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #f0f7f6;
+    position: relative;
+    top: 15px;
+    text-align: center;
+ 
+}
+
+.texto-main h1{
+    font-size:32px;
+    letter-spacing: 1px;
+    color:  white;
+    padding-top: 18px;
+
+}
+
+.form-section{
+
+    margin: auto;
+    width: 600px;
+    height: 700px;
+
+}
+
+.div-formulario{
+    margin: auto;
+}
+
+.div-formulario{
+    background: white;
+    position: relative;
+    top: 18px;
+    box-shadow: 0 0 10px #f0f7f6;
+    
+}
+
+.div-formulario{
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+form{
+    margin: 10px 0;
+    padding: 20px 25px;
+ 
+}
+
+form .input-block{
+    margin-bottom: 20px;
+
+}
+
+form .input-block label{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #000
+
+}
+
+form .input-block input{
+    width: 100%;
+    display: block;
+    margin-top: 4px;
+    padding: 7px;
+    font-size: 16px;
+    color: #000;
+    border-radius: 2px;
+    border: 1px solid #040a11;
+    outline-color: #5478a0;
+
+}
+
+form .btn-cadastrar{
+    display: block;
+    min-width: 120px;
+    border: none;
+    background-color: #292929;
+    color: white;
+    border-radius: 25px;
+    padding: 7px;
+    
+}
+
+form .btn-cadastrar:hover{
+    background:rgba(16, 16, 145, 0.993);
+
+}
+
+.div-links{
+    margin: auto;
+    background-color: #292929;
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+    width: 140px;
+    height: 31px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 7px;
+
+}
+
+.div-links:hover{
+    background:rgba(16, 16, 145, 0.993);
+
+}
+
+.links{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+
