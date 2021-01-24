@@ -29,62 +29,45 @@
 
             <div class = "div-formulario" id = "div-form">
 
-                <form action = "adicionarCliente" id = "form-cadastro" methodo = "post">
+                <form action = "adicionarCliente" id = "form-cadastro"  method = "post">
 
                     <div class = "input-block">
-
                         <label for = "nome"> Nome </label>
                         <input type = "text" id = "nome" required />
-
                     </div>
 
                     <div class = "input-block">
-
                         <label for = "cpf"> Cpf </label>
                         <input type = "text" id = "cpf" required />
-
                     </div>
 
                     <div class = "input-block">
-
                         <label for = "dataNascimento"> Data de Nascimento </label>
-                        <input type = "text" id = "dataNascimento" required/>
-          				<!-- <cadastro:campoData id="dataNascimento"/> -->
-
+                        <input type = "text" id = "dataNascimento" required/>                     
                     </div>
 
                     <div class = "input-block">
-
                         <label for = "telefone"> Telefone</label>
                         <input type = "text" id = "telefone" required /> 
-
                     </div>
                     
                     <div class = "input-block">
-
                         <label for = "email"> Email </label>
-                        <input type = "email" id = "email" required/> 
-
+                        <input type = "text" id = "email" required/> 
                     </div>
                     
                     <div class = "input-block">
-
-                        <label for = "nomepai"> Nome do Pai</label>
+                        <label for = "nomePai"> Nome do Pai</label>
                         <input type = "text" id = "nomePai" required/> 
-
                     </div>
 
                     <div class = "input-block">
-
                         <label for = "nomeMae"> Nome da Mãe </label>
                         <input type = "text" id = "nomeMae" required/> 
-
                     </div>
 
                     <div class = "input-block">
-
                         <button type = "submit" class = "btn-cadastrar" id = "btnCadastrar"> Cadastrar </button>
-
                     </div>
 
                 </form>

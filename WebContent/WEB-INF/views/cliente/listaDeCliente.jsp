@@ -55,9 +55,10 @@
 								<fmt:formatDate value = "${cliente.dataNascimento.time}" pattern = "dd/MM/yyyy"/>
 							</td>
 							
-							<td>${cliente.telefone}</td>
-							<td>${cliente.nomePai}</td>
-							<td>${cliente.nomeMae}</td>
+							<td> ${cliente.telefone} </td>
+							<td> ${cliente.email} </td>
+							<td> ${cliente.nomePai} </td>
+							<td> ${cliente.nomeMae} </td>
 	                   
 	                        <td class = "btn-th"> <a href="editarCliente?id=${cliente.id}" class = "btn-links btn-links-2"> Editar </a> </td>
 	                        <td class = "btn-th"> <a href="excluirCliente?id=${cliente.id}" class = "btn-links btn-links-2"> Excluir </a> </td>

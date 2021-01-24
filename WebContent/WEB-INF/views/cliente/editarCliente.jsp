@@ -31,63 +31,47 @@
 	
             <div class = "div-formulario" id = "div-form">
 
-                <form action = "atualizarCliente" id = "form-cadastro" methodo = "post">
+                <form action = "atualizarCliente" id = "form-cadastro" method = "post">
                 
-               		<input type="hidden" name="id" value="${cliente.id}"/>
+               		<input type = "hidden" name = "id" value = "${cliente.id}"/>
 
                     <div class = "input-block">
-
                         <label for = "nome"> Nome </label>
                         <input type = "text" name="nome" value = "${cliente.nome}" />
-
                     </div>
 
                     <div class = "input-block">
-
                         <label for = "cpf"> Cpf </label>
                         <input type = "text" name = "cpf" value = "${cliente.cpf}" />
-
                     </div>
 
                     <div class = "input-block">
-
                         <label for = "dataNascimento"> Data de Nascimento </label>              
 						<input type = "text" name = "dataNascimento" value = "<fmt:formatDate value="${cliente.dataNascimento.time}" pattern="dd/MM/yyyy" />"/>
-						
                     </div>
 
                     <div class = "input-block">
-
-                        <label for = "telefone"> Telefone</label>
+                        <label for = "telefone"> Telefone </label>
                         <input type = "text" name = "telefone" value = "${cliente.telefone}" /> 
-
                     </div>
                     
                     <div class = "input-block">
-
                         <label for = "email"> Email </label>
-                        <input type = "email" id = "email" required/> 
-
+                        <input type = "email" id = "email"  value = "${cliente.email}" /> 
                     </div>
                     
                     <div class = "input-block">
-
-                        <label for = "nomepai"> Nome do Pai</label>
-                        <input type="text" name="nomePai" value="${cliente.nomePai}" />
-
+                        <label for = "nomePai"> Nome do Pai</label>
+                        <input type = "text" name = "nomePai" value = "${cliente.nomePai}" />
                     </div>
 
                     <div class = "input-block">
-
                         <label for = "nomeMae"> Nome da Mãe </label>
-                        <input type="text" name="nomeMae" value="${cliente.nomeMae}" /> 
-
+                        <input type = "text" name = "nomeMae" value = "${cliente.nomeMae}" />
                     </div>
 
                     <div class = "input-block">
-
                         <button type = "submit" class = "btn-cadastrar" id = "btnCadastrar"> Editar </button>
-
                     </div>
 
                 </form>
